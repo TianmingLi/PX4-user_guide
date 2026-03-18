@@ -16,7 +16,6 @@ esc_rpm | `int32` | rpm | | Motor RPM, negative for reverse rotation - if suppor
 esc_voltage | `float32` | V | | Voltage measured from current ESC - if supported
 esc_current | `float32` | A | | Current measured from current ESC - if supported
 esc_temperature | `float32` | degC | | Temperature measured from current ESC - if supported
-esc_address | `uint8` |  | | Address of current ESC (in most cases 1-12 / must be set by driver)
 motor_temperature | `int16` | degC | | Temperature measured from current motor - if supported
 esc_state | `uint8` |  | | State of ESC - depend on Vendor
 actuator_function | `uint8` |  | | Actuator output function (one of Motor1...MotorN)
@@ -63,7 +62,6 @@ int32 esc_rpm # [rpm] Motor RPM, negative for reverse rotation - if supported
 float32 esc_voltage # [V] Voltage measured from current ESC - if supported
 float32 esc_current # [A] Current measured from current ESC - if supported
 float32 esc_temperature # [degC] Temperature measured from current ESC - if supported
-uint8 esc_address # [-] Address of current ESC (in most cases 1-12 / must be set by driver)
 int16 motor_temperature # [degC] Temperature measured from current motor - if supported
 
 uint8 esc_state # [-] State of ESC - depend on Vendor
