@@ -25251,6 +25251,22 @@ Reboot | minValue | maxValue | increment | default | unit
 --- | --- | --- | --- | --- | ---
 &check; |  |  |  | Disabled (0) |  | 
 
+### PPS_CAP_GPS_ID (`INT32`) {#PPS_CAP_GPS_ID}
+
+PPS capture GPS receiver device ID.
+
+Device ID of the GPS receiver that emits the PPS signal captured on the
+configured PWM input pin. When set to 0 (default), the first available
+GPS instance is used.
+
+The device ID can be obtained from the sensor_gps publication
+(e.g. via listener sensor_gps).
+
+
+Reboot | minValue | maxValue | increment | default | unit
+--- | --- | --- | --- | --- | ---
+&check; | 0 |  |  | 0 |  | 
+
 ## Geofence
 
 ### GF_ACTION (`INT32`) {#GF_ACTION}
