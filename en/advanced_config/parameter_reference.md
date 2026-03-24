@@ -24039,7 +24039,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Trigger time.
 
-Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
+Launch is detected when the norm of body acceleration is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
 
 
 Reboot | minValue | maxValue | increment | default | unit
@@ -24050,7 +24050,7 @@ Reboot | minValue | maxValue | increment | default | unit
 
 Trigger acceleration threshold.
 
-Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
+Launch is detected when the norm of body acceleration is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
 
 
 Reboot | minValue | maxValue | increment | default | unit
